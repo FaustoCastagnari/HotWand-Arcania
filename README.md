@@ -1,5 +1,5 @@
 Hot Wand: Arcania:
 
-Este proyecto es un trabajo práctico grupal del turno noche de la cursada 2018 de la materia “Taller de Arte y Diseño Digital IV”, de la carrera Licenciatura en Arte y Diseño Digital de la Universidad del Salvador, a cargo del profesor Eduardo Rodríguez Ortega.
+Este proyecto es un trabajo práctico final de Castagnari Fausto para la materia Taller de Arte y Diseño Digital IV, de la carrera de Licenciatura en Arte y Diseño Digital, a cargo del profesor Eduardo Rodriguez Ortega.
 
-Los integrantes originales de este grupo son: Fausto Castagnari, Gabriel Morelli, Florencia Paz, Florencia Potel Furchi, Federico Ivan Rao, Gaston szmulewicz, Julio Garcia y Fermín Fernández Díaz.
+Este repositorio es un proyecto modificado del original HotWand Arcania.
