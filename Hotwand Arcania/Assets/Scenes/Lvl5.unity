@@ -322,7 +322,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1390305377425958, guid: 4472a70fffe74b04aa67158bfd0fd97a, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1111838717094322, guid: 4472a70fffe74b04aa67158bfd0fd97a, type: 2}
       propertyPath: m_IsActive
@@ -562,11 +562,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4358462033678724, guid: bd9cd0f6bf4701747a4ebdce1d240904,
     type: 2}
   m_PrefabInternal: {fileID: 1374517593}
---- !u!1 &583773063 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1940374596896764, guid: 1d2e0c6c43928784b9d00b7bb2d4bd9c,
-    type: 2}
-  m_PrefabInternal: {fileID: 614493371}
 --- !u!1001 &614493371
 Prefab:
   m_ObjectHideFlags: 0
@@ -671,12 +666,12 @@ Prefab:
     - target: {fileID: 224447813373235806, guid: 1d2e0c6c43928784b9d00b7bb2d4bd9c,
         type: 2}
       propertyPath: m_AnchoredPosition.x
-      value: -1.6499939
+      value: 11.8
       objectReference: {fileID: 0}
     - target: {fileID: 224447813373235806, guid: 1d2e0c6c43928784b9d00b7bb2d4bd9c,
         type: 2}
       propertyPath: m_AnchoredPosition.y
-      value: 5.3374953
+      value: -13
       objectReference: {fileID: 0}
     - target: {fileID: 1147597329896438, guid: 1d2e0c6c43928784b9d00b7bb2d4bd9c, type: 2}
       propertyPath: m_IsActive
@@ -700,12 +695,12 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 1107623265172458, guid: 1d2e0c6c43928784b9d00b7bb2d4bd9c, type: 2}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224447813373235806, guid: 1d2e0c6c43928784b9d00b7bb2d4bd9c,
         type: 2}
       propertyPath: m_SizeDelta.y
-      value: -43.914993
+      value: -34.41
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d2e0c6c43928784b9d00b7bb2d4bd9c, type: 2}
@@ -816,6 +811,11 @@ Transform:
   m_Father: {fileID: 1548269290}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &861479513 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1107623265172458, guid: 1d2e0c6c43928784b9d00b7bb2d4bd9c,
+    type: 2}
+  m_PrefabInternal: {fileID: 614493371}
 --- !u!1 &953159491
 GameObject:
   m_ObjectHideFlags: 0
@@ -12160,7 +12160,7 @@ Prefab:
         type: 2}
       propertyPath: RestartButton
       value: 
-      objectReference: {fileID: 583773063}
+      objectReference: {fileID: 861479513}
     - target: {fileID: 4042692248449106, guid: e9383c8bd18e7d34283cf78400b385a7, type: 2}
       propertyPath: m_LocalPosition.x
       value: -0.721

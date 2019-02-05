@@ -16369,6 +16369,60 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1935990711514780, guid: 1057df699dd1b9a439b9ce409daa3729, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114914785016411768, guid: 1057df699dd1b9a439b9ce409daa3729,
+        type: 2}
+      propertyPath: m_FontData.m_FontSize
+      value: 24
+      objectReference: {fileID: 0}
+    - target: {fileID: 114914785016411768, guid: 1057df699dd1b9a439b9ce409daa3729,
+        type: 2}
+      propertyPath: m_FontData.m_FontStyle
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114914785016411768, guid: 1057df699dd1b9a439b9ce409daa3729,
+        type: 2}
+      propertyPath: m_FontData.m_MaxSize
+      value: 240
+      objectReference: {fileID: 0}
+    - target: {fileID: 114914785016411768, guid: 1057df699dd1b9a439b9ce409daa3729,
+        type: 2}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224447813373235806, guid: 1057df699dd1b9a439b9ce409daa3729,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 11.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 224447813373235806, guid: 1057df699dd1b9a439b9ce409daa3729,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -13
+      objectReference: {fileID: 0}
+    - target: {fileID: 224447813373235806, guid: 1057df699dd1b9a439b9ce409daa3729,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: -43.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 224447813373235806, guid: 1057df699dd1b9a439b9ce409daa3729,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: -34.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 224821151017888250, guid: 1057df699dd1b9a439b9ce409daa3729,
+        type: 2}
+      propertyPath: m_SizeDelta.x
+      value: 240
+      objectReference: {fileID: 0}
+    - target: {fileID: 224821151017888250, guid: 1057df699dd1b9a439b9ce409daa3729,
+        type: 2}
+      propertyPath: m_SizeDelta.y
+      value: 140
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1057df699dd1b9a439b9ce409daa3729, type: 2}
   m_IsPrefabAsset: 0

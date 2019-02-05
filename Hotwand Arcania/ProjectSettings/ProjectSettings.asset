@@ -617,9 +617,9 @@ PlayerSettings:
     UNet: 1
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: 48799af8-3185-48c0-a38c-d0c21a5bf7ef
-  projectName: Hotwand Arcania - posta
-  organizationId: taller-iv-turno-noche-2018
+  cloudProjectId: 9b7924d7-34cd-4269-a0cd-ebccfbb3b4c8
+  projectName: Hotwand Arcania FINAL FAUSTO
+  organizationId: hotwandfausto
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0
   disableOldInputManagerSupport: 0
