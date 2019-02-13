@@ -3409,7 +3409,7 @@ Prefab:
     - target: {fileID: 114685408909948316, guid: 644893c920072444e996c91e7008a254,
         type: 2}
       propertyPath: nextLevel
-      value: 6
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 114685408909948316, guid: 644893c920072444e996c91e7008a254,
         type: 2}

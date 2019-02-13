@@ -213,11 +213,6 @@ Transform:
   m_Father: {fileID: 1548269290}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &310138695 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1248056573677060, guid: 53cb3d6aeed688943b719141c0baacf2,
-    type: 2}
-  m_PrefabInternal: {fileID: 2114535064}
 --- !u!1001 &369670806
 Prefab:
   m_ObjectHideFlags: 0
@@ -11703,6 +11698,11 @@ Prefab:
       propertyPath: scoreText
       value: 
       objectReference: {fileID: 614493373}
+    - target: {fileID: 114261917038993058, guid: d310ce75d1182a14190a38f222f80f95,
+        type: 2}
+      propertyPath: ammoText
+      value: 
+      objectReference: {fileID: 614493373}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d310ce75d1182a14190a38f222f80f95, type: 2}
   m_IsPrefabAsset: 0
@@ -12485,12 +12485,12 @@ Prefab:
         type: 2}
       propertyPath: weaponEquipped
       value: 
-      objectReference: {fileID: 310138695}
+      objectReference: {fileID: 0}
     - target: {fileID: 114173188282440880, guid: 00071f446a5cb3548a6f0cd79d96885b,
         type: 2}
       propertyPath: target
       value: 
-      objectReference: {fileID: 310138695}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 00071f446a5cb3548a6f0cd79d96885b, type: 2}
   m_IsPrefabAsset: 0

@@ -475,7 +475,7 @@ Prefab:
     - target: {fileID: 114685408909948316, guid: 644893c920072444e996c91e7008a254,
         type: 2}
       propertyPath: nextLevel
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 644893c920072444e996c91e7008a254, type: 2}
@@ -676,6 +676,12 @@ Transform:
   m_Father: {fileID: 1548269290}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &432928302 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114914785016411768, guid: 1057df699dd1b9a439b9ce409daa3729,
+    type: 2}
+  m_PrefabInternal: {fileID: 135624085}
+  m_Script: {fileID: 708705254, guid: f70555f144d8491a825f0804e09c671c, type: 3}
 --- !u!1 &452288812
 GameObject:
   m_ObjectHideFlags: 0
@@ -20720,12 +20726,12 @@ Prefab:
         type: 2}
       propertyPath: scoreText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 432928302}
     - target: {fileID: 114261917038993058, guid: d310ce75d1182a14190a38f222f80f95,
         type: 2}
       propertyPath: ammoText
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 432928302}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d310ce75d1182a14190a38f222f80f95, type: 2}
   m_IsPrefabAsset: 0
