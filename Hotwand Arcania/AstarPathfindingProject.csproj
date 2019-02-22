@@ -60,7 +60,6 @@
      <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\EnemyProjectile.cs" />
      <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\Equipment.cs" />
      <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\Globales.cs" />
-     <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\KnockedDown.cs" />
      <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\MeleeAttack.cs" />
      <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\MeleeAttack_Beast.cs" />
      <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\MeleeHitboxEnemy.cs" />
