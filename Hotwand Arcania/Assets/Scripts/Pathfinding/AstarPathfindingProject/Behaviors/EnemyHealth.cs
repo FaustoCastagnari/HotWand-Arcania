@@ -32,7 +32,6 @@ public class EnemyHealth : MonoBehaviour {
 		child_transform = gameObject.transform.GetChild(0);
 		child_object = child_transform.gameObject;
 		child_sprite = child_object.GetComponent<SpriteRenderer>();
-
 		portal = GameObject.FindGameObjectWithTag("Portal");
 		main = GameObject.FindGameObjectWithTag("Main");
 		score = GameObject.FindGameObjectWithTag("Score");

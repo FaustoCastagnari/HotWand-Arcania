@@ -30,7 +30,7 @@ public class knocked : StateMachineBehaviour {
 
 	// OnStateExit is called when a transition ends and the state machine finishes evaluating this state
 	override public void OnStateExit(Animator animator, AnimatorStateInfo stateInfo, int layerIndex) {
-		animator.GetComponent<AIPath>().maxSpeed = 0.6f;
+		animator.GetComponent<AIPath>().maxSpeed = 0.0f;
 		animator.GetComponent<AIPath>().enabled = true;
 		animator.GetComponent<Chase>().enabled = true;
 		animator.GetComponent<CircleCollider2D>().enabled = true;

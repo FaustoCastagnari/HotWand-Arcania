@@ -726,7 +726,8 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114096093930081490, guid: bd9cd0f6bf4701747a4ebdce1d240904, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: bd9cd0f6bf4701747a4ebdce1d240904, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &457555580 stripped
@@ -835,7 +836,13 @@ Prefab:
       propertyPath: speed
       value: 20
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 114111046226167944, guid: bd9cd0f6bf4701747a4ebdce1d240904,
+        type: 2}
+      propertyPath: attackDelay
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114096093930081490, guid: bd9cd0f6bf4701747a4ebdce1d240904, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: bd9cd0f6bf4701747a4ebdce1d240904, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &561962515
@@ -1665,7 +1672,8 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114096093930081490, guid: bd9cd0f6bf4701747a4ebdce1d240904, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: bd9cd0f6bf4701747a4ebdce1d240904, type: 2}
   m_IsPrefabAsset: 0
 --- !u!4 &1011725076 stripped
@@ -10257,7 +10265,8 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114096093930081490, guid: bd9cd0f6bf4701747a4ebdce1d240904, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: bd9cd0f6bf4701747a4ebdce1d240904, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1246438789
@@ -15914,7 +15923,8 @@ Prefab:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 114096093930081490, guid: bd9cd0f6bf4701747a4ebdce1d240904, type: 2}
   m_SourcePrefab: {fileID: 100100000, guid: bd9cd0f6bf4701747a4ebdce1d240904, type: 2}
   m_IsPrefabAsset: 0
 --- !u!1 &1583779839
