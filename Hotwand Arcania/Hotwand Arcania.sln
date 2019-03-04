@@ -1,7 +1,13 @@
 ﻿
+<<<<<<< HEAD
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotWand Arcania", "AstarPathfindingProject.csproj", "{B3307EC9-9875-B642-61CC-228CA26A97A6}"
+=======
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotwand Arcania", "AstarPathfindingProject.csproj", "{23336390-13AB-AAC3-B9DB-8D113B0AD0D6}"
+>>>>>>> 20f123f768f0e26d64fa1381448a56033cac9dc8
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotWand Arcania", "Assembly-CSharp.csproj", "{F9A241A8-CA8C-A7CA-8DB9-0ADC513CB501}"
 EndProject
@@ -34,5 +40,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
 	EndGlobalSection
 EndGlobal
