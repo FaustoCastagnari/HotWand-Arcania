@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{2C98B230-9012-B2C3-9206-DF5707446CB9}</ProjectGuid>
+    <ProjectGuid>{F9A241A8-CA8C-A7CA-8DB9-0ADC513CB501}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -67,6 +67,7 @@
     <Compile Include="Assets\Scripts\CutScenes\CutsceneContainer.cs" />
     <Compile Include="Assets\Scripts\CutScenes\CutsceneDisplay.cs" />
     <Compile Include="Assets\Scripts\CutScenes\SceneSequence.cs" />
+    <Compile Include="Assets\Scripts\DamageBar.cs" />
     <Compile Include="Assets\Scripts\Enemy\chase.cs" />
     <Compile Include="Assets\Scripts\Enemy\chase_Cancerberus.cs" />
     <Compile Include="Assets\Scripts\Enemy\chase_Dragon.cs" />
@@ -100,20 +101,21 @@
     <Compile Include="Assets\Scripts\Player\RotateToCursor.cs" />
     <Compile Include="Assets\Scripts\Player\RotateToTarget.cs" />
     <Compile Include="Assets\Scripts\Player\RotateTowardsTarget.cs" />
+    <Compile Include="Assets\Scripts\UI\HealthBar.cs" />
     <Compile Include="Assets\Scripts\UI\Menu\LoadOnClick.cs" />
     <Compile Include="Assets\Scripts\UI\Menu\Main_Menu.cs" />
     <Compile Include="Assets\Scripts\Weapons\Projectile.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand-CastagnariFausto/Hotwand Arcania/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand/HotWand Arcania/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand-CastagnariFausto/Hotwand Arcania/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand/HotWand Arcania/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand-CastagnariFausto/Hotwand Arcania/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand/HotWand Arcania/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand-CastagnariFausto/Hotwand Arcania/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand/HotWand Arcania/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -311,7 +313,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand-CastagnariFausto/Hotwand Arcania/Assets/Scripts/Pathfinding/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand/HotWand Arcania/Assets/Scripts/Pathfinding/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Analytics">
       <HintPath>C:/Users/casta/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.analytics@2.0.16/UnityEngine.Analytics.dll</HintPath>
@@ -349,15 +351,15 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{23336390-13AB-AAC3-B9DB-8D113B0AD0D6}</Project>
+      <Project>{B3307EC9-9875-B642-61CC-228CA26A97A6}</Project>
       <Name>AstarPathfindingProject</Name>
     </ProjectReference>
     <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{607FAF0C-2175-71FF-7476-D3A8ECCB6202}</Project>
+      <Project>{D04FD0F8-3800-0066-411E-7F7D6454EC82}</Project>
       <Name>PackageToolsEditor</Name>
     </ProjectReference>
     <ProjectReference Include="AstarPathfindingProjectEditor.csproj">
-      <Project>{DD4A3148-9562-43A5-D6A2-62B9FADED328}</Project>
+      <Project>{C52F839C-9535-B594-BF05-C73D2856613C}</Project>
       <Name>AstarPathfindingProjectEditor</Name>
     </ProjectReference>
   </ItemGroup>

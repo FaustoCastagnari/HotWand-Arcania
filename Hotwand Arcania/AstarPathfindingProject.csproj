@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{23336390-13AB-AAC3-B9DB-8D113B0AD0D6}</ProjectGuid>
+    <ProjectGuid>{B3307EC9-9875-B642-61CC-228CA26A97A6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AstarPathfindingProject</AssemblyName>
@@ -68,7 +68,6 @@
     <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\EnemyProjectile.cs" />
     <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\Equipment.cs" />
     <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\Globales.cs" />
-    <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\KnockedDown.cs" />
     <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\MeleeAttack.cs" />
     <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\MeleeAttack_Beast.cs" />
     <Compile Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Behaviors\MeleeHitboxEnemy.cs" />
@@ -425,7 +424,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand-CastagnariFausto/Hotwand Arcania/Assets/Scripts/Pathfinding/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand/HotWand Arcania/Assets/Scripts/Pathfinding/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/casta/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>

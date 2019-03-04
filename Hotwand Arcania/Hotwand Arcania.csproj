@@ -5,7 +5,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{9E9D9CE7-4751-4FE6-752F-DBCEE10E4F4B}</ProjectGuid>
+    <ProjectGuid>{BE6C422A-5860-837D-DF4E-816B775303E1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -317,25 +317,49 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\Camera\CameraFollowPlayer.cs" />
+    <Compile Include="Assets\Scripts\CutScenes\changeToLevel1.cs" />
     <Compile Include="Assets\Scripts\CutScenes\CutsceneContainer.cs" />
     <Compile Include="Assets\Scripts\CutScenes\CutsceneDisplay.cs" />
+    <Compile Include="Assets\Scripts\CutScenes\SceneSequence.cs" />
+    <Compile Include="Assets\Scripts\DamageBar.cs" />
     <Compile Include="Assets\Scripts\Enemy\chase.cs" />
-    <Compile Include="Assets\Scripts\Enemy\EnemyBaseFSM.cs" />
-    <Compile Include="Assets\Scripts\Enemy\GetHurt.cs" />
+    <Compile Include="Assets\Scripts\Enemy\chase_Cancerberus.cs" />
+    <Compile Include="Assets\Scripts\Enemy\chase_Dragon.cs" />
+    <Compile Include="Assets\Scripts\Enemy\dead.cs" />
+    <Compile Include="Assets\Scripts\Enemy\dead_Dragon.cs" />
+    <Compile Include="Assets\Scripts\Enemy\DetectPlayer.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyLegs.cs" />
+    <Compile Include="Assets\Scripts\Enemy\knocked.cs" />
+    <Compile Include="Assets\Scripts\Enemy\knocked_Dragon.cs" />
     <Compile Include="Assets\Scripts\Enemy\meleeattack.cs" />
+    <Compile Include="Assets\Scripts\Enemy\meleeattack_Beast.cs" />
     <Compile Include="Assets\Scripts\Enemy\patrol.cs" />
+    <Compile Include="Assets\Scripts\Enemy\patrol_Beast.cs" />
     <Compile Include="Assets\Scripts\Enemy\rangedAttack.cs" />
+    <Compile Include="Assets\Scripts\Enemy\rangedAttack_Dragon.cs" />
     <Compile Include="Assets\Scripts\Enemy\weaponpickup.cs" />
+    <Compile Include="Assets\Scripts\Level\Door.cs" />
+    <Compile Include="Assets\Scripts\Level\DoorMovement.cs" />
+    <Compile Include="Assets\Scripts\Level\Enemy.cs" />
+    <Compile Include="Assets\Scripts\Level\LoadSceneAfterVideoEnded.cs" />
+    <Compile Include="Assets\Scripts\Level\PauseMenu.cs" />
+    <Compile Include="Assets\Scripts\Level\RotateDoorAntiClockwise.cs" />
+    <Compile Include="Assets\Scripts\Level\RotateDoorClockwise.cs" />
+    <Compile Include="Assets\Scripts\Level\Videoplay.cs" />
+    <Compile Include="Assets\Scripts\Player\Health.cs" />
+    <Compile Include="Assets\Scripts\Player\Knocked.cs" />
     <Compile Include="Assets\Scripts\Player\Movement.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInteract.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerRotateLegs.cs" />
+    <Compile Include="Assets\Scripts\Player\PlayerSortingLayer.cs" />
     <Compile Include="Assets\Scripts\Player\RotateToCursor.cs" />
     <Compile Include="Assets\Scripts\Player\RotateToTarget.cs" />
     <Compile Include="Assets\Scripts\Player\RotateTowardsTarget.cs" />
+    <Compile Include="Assets\Scripts\UI\HealthBar.cs" />
+    <Compile Include="Assets\Scripts\UI\Menu\LoadOnClick.cs" />
     <Compile Include="Assets\Scripts\UI\Menu\Main_Menu.cs" />
-    <Compile Include="Assets\Scripts\Weapons\Equipment.cs" />
     <Compile Include="Assets\Scripts\Weapons\Projectile.cs" />
-    <Compile Include="Assets\Scripts\Weapons\Weapon.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Scripts\Pathfinding\AstarPathfindingProject\Editor\EditorAssets\Materials\Navmesh.cginc" />

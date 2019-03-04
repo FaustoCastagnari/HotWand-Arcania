@@ -187,6 +187,7 @@ public GameObject equippedWeapon;
 		animator.SetBool("Sword Stance", false);
 		animator.SetBool("Axe Stance", false);
 		animator.SetBool("Wand Stance", false);
+		animator.SetBool("Uziwand Stance", false);
 		animator.SetBool("Crossbow Stance", false);
 	}
 	public void DropWeapon()
@@ -229,7 +230,8 @@ public GameObject equippedWeapon;
 					if (equippedWeapon.GetComponent<Weapon>().weaponAmmo > 0) 
 					{	
 							equippedWeapon.GetComponent<Weapon>().weaponAmmo -= 1;
-							if (score != null) score.GetComponent<Score>().ammo = equippedWeapon.GetComponent<Weapon>().weaponAmmo;							equippedWeapon.GetComponent<Weapon>().weaponAmmo -= 1;
+							if (score != null) score.GetComponent<Score>().ammo = equippedWeapon.GetComponent<Weapon>().weaponAmmo;	
+							//equippedWeapon.GetComponent<Weapon>().weaponAmmo -= 1;
 							Instantiate(wandProjectile, rangedAnchorPoint.transform.position, transform.rotation);
 					}
 				break;

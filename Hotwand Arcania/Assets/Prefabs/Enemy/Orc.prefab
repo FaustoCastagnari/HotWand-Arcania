@@ -31,7 +31,6 @@ GameObject:
   - component: {fileID: 114511249316009798}
   - component: {fileID: 114630174247274476}
   - component: {fileID: 114173188282440880}
-  - component: {fileID: 114014703809686740}
   - component: {fileID: 95554088365648222}
   - component: {fileID: 114052895708815538}
   - component: {fileID: 114878669305968488}
@@ -233,17 +232,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &114014703809686740
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1373910370790456}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db85a7a607d24542b2060d88d89a261, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114052895708815538
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -308,7 +296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRange: 2.5
-  attackDelay: 2
+  attackDelay: 3
   meleeHitbox: {fileID: 1389483194045350, guid: c003c19f7fd296940ae39a6e7c8ae537,
     type: 2}
   meleeAnchorPoint: {fileID: 1588998763639248}
@@ -387,11 +375,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e935b19c0cc9b3941b57c5a8c4c1ada5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  health: 8
+  health: 5
   dead: 0
   animator: {fileID: 95554088365648222}
   legs: {fileID: 1962226634289828}
   weaponPickup: {fileID: 0}
+  Default: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  Hit: {fileID: 2100000, guid: 720d1f7a5ebde384c9d86bf2be2ba4bb, type: 2}
+  knocked: 0
 --- !u!114 &114788590449063496
 MonoBehaviour:
   m_ObjectHideFlags: 1

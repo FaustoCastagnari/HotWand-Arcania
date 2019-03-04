@@ -19,6 +19,12 @@ public class EnemyHealth : MonoBehaviour {
 	private GameObject main;
     private GameObject score;
 
+    //Flash Shader Vars
+    public Material Default;
+    public Material Hit;
+    private float knockedTimer = 20.0f;
+    public bool knocked;
+
     //Getting Child's Sprite
     private Transform child_transform;
 	private GameObject child_object;
@@ -39,13 +45,28 @@ public class EnemyHealth : MonoBehaviour {
 		player = GameObject.FindGameObjectWithTag("Player");
     }
 
+    public void Update()
+    {
+        //Flash Shader when hit
+        if (knocked) {
+            knockedTimer -= Time.time;
 
+            if (knockedTimer <= 0.0f)
+            {
+                knocked = false;
+                child_object.GetComponent<SpriteRenderer>().material = Default;
+                GetComponent<SpriteRenderer>().material = Default;
+            }
+        }
+    }
     public void TakeDamage(Attack attack) {
         health -= attack.damage;
+        child_object.GetComponent<SpriteRenderer>().material = Hit;
+        GetComponent<SpriteRenderer>().material = Hit;
 
         if (health <= 0)
 		{
-           
+            GetComponent<SpriteRenderer>().material = Default;
             legs.SetActive(false);          
             health = 0;
             if ( !dead ) {
@@ -103,9 +124,15 @@ public class EnemyHealth : MonoBehaviour {
         }
 		else
 		{
-            legs.SetActive(false);
+            //legs.SetActive(false);
             // Si sobrevivio al ataque, queda noqueado
+            if (!knocked) {
+                knockedTimer = 20.0f;
+                knocked = true;
+            }
 
+ 
+            /*
 			gameObject.GetComponent<Animator>().SetBool("Knocked", true);
             
 			//Debug.Log("Got Knocked.");
@@ -127,6 +154,7 @@ public class EnemyHealth : MonoBehaviour {
                     {"CordenadasX", ( GameObject.FindGameObjectWithTag("Enemy").transform.position.x) },
                     {"CordenadasY",  (GameObject.FindGameObjectWithTag("Enemy").transform.position.y) }
                 });
+            */
 
             if (GetComponent<WeaponPickup>().weaponEquipped != null)
 			{

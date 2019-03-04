@@ -81,7 +81,6 @@ GameObject:
   - component: {fileID: 114403025852862670}
   - component: {fileID: 114949022142026636}
   - component: {fileID: 114690642449493194}
-  - component: {fileID: 114502134358236050}
   - component: {fileID: 95993449130175552}
   - component: {fileID: 114801133147594496}
   - component: {fileID: 114605072586399894}
@@ -245,7 +244,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  target: {fileID: 0}
+  target: {fileID: 4042692248449106, guid: e9383c8bd18e7d34283cf78400b385a7, type: 2}
 --- !u!114 &114164825271049252
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -348,17 +347,6 @@ MonoBehaviour:
   layersIWant:
     serializedVersion: 2
     m_Bits: 2304
---- !u!114 &114502134358236050
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1895218687968890}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4db85a7a607d24542b2060d88d89a261, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114605072586399894
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -447,6 +435,9 @@ MonoBehaviour:
   animator: {fileID: 95993449130175552}
   legs: {fileID: 1007823856543644}
   weaponPickup: {fileID: 0}
+  Default: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  Hit: {fileID: 2100000, guid: 720d1f7a5ebde384c9d86bf2be2ba4bb, type: 2}
+  knocked: 0
 --- !u!212 &212611151691757146
 SpriteRenderer:
   m_ObjectHideFlags: 1

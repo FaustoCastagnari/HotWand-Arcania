@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{DD4A3148-9562-43A5-D6A2-62B9FADED328}</ProjectGuid>
+    <ProjectGuid>{C52F839C-9535-B594-BF05-C73D2856613C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AstarPathfindingProjectEditor</AssemblyName>
@@ -319,7 +319,7 @@
       <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
     </Reference>
     <Reference Include="Pathfinding.Ionic.Zip.Reduced">
-      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand-CastagnariFausto/Hotwand Arcania/Assets/Scripts/Pathfinding/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
+      <HintPath>D:/Documents/Cosas de la facu/TALLER DISEÑO DIGITAL 4/HotWand/HotWand Arcania/Assets/Scripts/Pathfinding/AstarPathfindingProject/Plugins/DotNetZip/Pathfinding.Ionic.Zip.Reduced.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.Advertisements">
       <HintPath>C:/Users/casta/AppData/Local/Unity/cache/packages/packages.unity.com/com.unity.ads@2.0.8/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -369,11 +369,11 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AstarPathfindingProject.csproj">
-      <Project>{23336390-13AB-AAC3-B9DB-8D113B0AD0D6}</Project>
+      <Project>{B3307EC9-9875-B642-61CC-228CA26A97A6}</Project>
       <Name>AstarPathfindingProject</Name>
     </ProjectReference>
     <ProjectReference Include="PackageToolsEditor.csproj">
-      <Project>{607FAF0C-2175-71FF-7476-D3A8ECCB6202}</Project>
+      <Project>{D04FD0F8-3800-0066-411E-7F7D6454EC82}</Project>
       <Name>PackageToolsEditor</Name>
     </ProjectReference>
   </ItemGroup>
